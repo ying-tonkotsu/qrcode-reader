@@ -20,3 +20,16 @@ h1{
   font-size: 24px;
   color: #d00a0a;
 }
+
+a{
+    border-radius: 30px;
+    border: 3px solid #ccc;
+    display: block;
+    padding: 30px;
+    text-align: center;
+}
+a:before{
+  content: url(./link.png);
+  opacity: .5;
+  width: 60px;
+}
