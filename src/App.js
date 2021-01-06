@@ -25,6 +25,7 @@ class App extends Component {
           onScan={this.handleScan}
           style={{ width: '100%' }}
         />
+        <h1>赤枠内にQRコードが入るようにスキャンしてください</h1>
         <a href={this.state.result}>{this.state.result}</a>
       </div>
     )
